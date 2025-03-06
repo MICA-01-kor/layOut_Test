@@ -1,0 +1,9 @@
+section {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+  }
+.s8 h1, p{
+    color: blue;
+
+}
