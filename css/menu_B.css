@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    text-align: none;
+    color: inherit;
+}
+header {
+    width: 200px;
+    height: 100%;
+    border-right: 1px solid #000;
+    padding-top: 30px;
+    color: #000;
+}
+header nav {
+    margin-top: 20px;
+}
+header nav > ul {
+    width: 180px;
+    padding-left: 14px;
+}
+header nav a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+}
+.submenu {
+    display: none;
+}
+.menu:hover > a {
+    color: #fff;
+    background-color: rgb(61, 137, 224);
+}
+.submenu li:hover a {
+    color: #fff;
+    background-color: rgb(139, 173, 245);
+}
