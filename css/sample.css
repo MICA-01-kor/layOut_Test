@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Ponomar&family=Sofia&family=Trirong:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrap {
+  width: 1300px;
+  margin: 0 auto;
+  position: relative;
+}
+header {
+  height: 100px;
+  background-color: #F5F5F5;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 200px;
+  height: 70px;
+  background-color: #F5F5F5;
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+}
+.nav {
+  width: 800px;
+  height: 100px;
+  background-color: #F5F5F5;
+}
+header .nav li {
+  list-style: none;
+}
+header a {
+  text-decoration: none;
+  color: inherit;
+}
+header .nav {
+  width: 700px;
+  padding-top: 29px;
+  margin-left: 200px;
+}
+header .nav > ul {
+  display: flex;
+}
+header ul a {
+  display: block;
+  text-align: center;
+  background-color: #F5F5F5;;
+  padding: 10px;
+}
+.menu {
+  position: relative;
+  width: 25%;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  
+}
+.submenu {
+  position: absolute;
+  width: 100%;
+  z-index: 998;
+  display: none;
+}
+.menu:hover > a {
+  color: #1a1a1a;
+  background-color: #fff;
+}
+.submenu li:hover a {
+  color: #1a1a1a;
+  background-color: #fff;
+}
+/* slideConent */
+.slideContent {
+    display: flex;
+    align-items: center;
+    height: 740px;
+    background-color: transparent;
+    background: url(../images/퀼른2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* content */
+.content {
+  height: 200px;
+  background-color: #ffcccc;
+  display: flex;
+}
+.tabMenu li {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 600;
+}
+.tabMenu li a {
+  display: block;
+  padding: 10px;
+}
+.tabMenu li .on a {
+  background-color: #6159da;
+}
+.tabItem > * {
+  height: 150px;
+  padding: 10px;
+}
+.tabItem > * .on {
+  background-color: #bac8ee;
+}
+.notice li {
+  display: flex;
+  line-height: 2.2;
+}
+.notice li a {
+  display: inline-block;
+  width: 260px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.notice li span {
+  margin-left: auto;
+}
+.notice li:hover {
+  text-decoration: underline;
+}
+.con2 {
+  width: 33.33%;
+  background-color: pink;
+}
+
+.con3 {
+  width: 33.33%;
+  background-color:#ffcccc;
+}
+/* footer */
+footer {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  background-color: #eee;
+}
+footer .footerLogo {
+  display: block;
+  width: 200px;
+  height: 100px;
+  font-size: 0px;
+  background-color: #eee;
+}
+footer p {
+  width: 70%;
+  text-align: center;
+}
+footer .sns a img {
+  display: inline-block;
+  width: 20px;
+  margin-left: 20px;
+}
